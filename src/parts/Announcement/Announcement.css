@@ -1,0 +1,12 @@
+.container {
+    height: 40px;
+    background-color: #040F16;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.7px;
+    font-family: 'Open Sans', sans-serif;
+}

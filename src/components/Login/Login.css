@@ -1,0 +1,111 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  min-height: 50vh;
+  margin: 100px 50px;
+}
+
+.login-container h2 {
+  font-size: 40px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  line-height: 51px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.login-form label {
+  display: inline-block;
+  width: 480px;
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'open sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#form-btn {
+  width: 100px;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 2px;
+  background-color: #2554D7;
+  color: white;
+  font-size: 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 450;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.forgot-password {
+  font-size: 13px;
+  text-align: left;
+  color: #2554D7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.forgot-password:hover {
+  color: #2554D7;
+  text-decoration: underline;
+}
+
+.new-account-part {
+  text-align: left;
+  margin: 0px 280px; 
+  padding: 100px;
+}
+
+.new-account-part h3 {
+  font-size: 24px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.new-account-part p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);;
+}
+
+.new-account-part button {
+  width: 100px;
+  padding: 10px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 2px;
+  background-color: #53D3D1;;
+  color: white;
+  font-size: 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 450;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.new-account-part button:hover {
+  background-color: #000000;
+  opacity: 0.8;
+}
