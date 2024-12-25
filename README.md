@@ -1,4 +1,4 @@
-# FarhanShahriyar-GYM-Website-2.0
+# GYM-Website-2.0
 
 ## Overview
 This repository contains the source code for **GYM Website 2.0**, a modern and responsive gym website designed to showcase products, services, and facilities of a gym or fitness center. It includes user-friendly interfaces for registration, login, and browsing gym-related products or services.
